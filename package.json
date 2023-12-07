@@ -1,5 +1,5 @@
 {
-  "name": "rct-utils",
+  "name": "front-ent-tools",
   "version": "1.0.0-1",
   "description": "项目公共工具库",
   "main": "build/front_ent_tools.js",
