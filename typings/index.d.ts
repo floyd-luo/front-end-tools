@@ -1,17 +1,11 @@
-/// <reference path="./string.prototype.d.ts" />
-/// <reference path="./date.prototype.d.ts" />
-
 import * as _date from './date';
 import money from './money';
-import {useTable, useFormItem} from './hooks';
 import {Entity, cityMap, provinceCityDistrictMap} from './areas';
 import localStorage from './localStorage';
 import File from './file';
 import regular from './regular';
-import TableUtils from './tableUtils';
 import ID_NumUtils from './idNum';
-import googleAnalytics from './googleAnalytics';
-import staticResource from './staticResource';
+import {accessCode} from './accessCode';
 
 export {
     cityMap,
@@ -21,12 +15,8 @@ export {
     File,
     regular,
     money,
-    TableUtils,
     ID_NumUtils,
-    useTable,
-    useFormItem,
-    googleAnalytics,
-    staticResource
+    accessCode,
 };
 
 /**

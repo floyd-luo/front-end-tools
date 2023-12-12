@@ -1,0 +1,1 @@
+export const accessCode:(code: string) =>string;
