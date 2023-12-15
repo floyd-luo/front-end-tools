@@ -1,11 +1,12 @@
 const path = require('path');
 const webpack = require('webpack');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 module.exports = {
     output: {
         path: path.resolve(__dirname, '../../build'),
         filename: '[name].js',
         publicPath: '/build/',
-        libraryTarget: 'umd',
+        libraryTarget: "umd",
         library: 'front-ent-tools'
     },
     module: {

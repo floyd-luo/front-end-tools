@@ -1,1 +1,2 @@
-export const accessCode:(code: string) =>string;
+declare const getAccessCode:(code: string) =>string;
+export default getAccessCode;

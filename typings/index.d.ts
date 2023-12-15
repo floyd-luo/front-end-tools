@@ -5,7 +5,7 @@ import localStorage from './localStorage';
 import File from './file';
 import regular from './regular';
 import ID_NumUtils from './idNum';
-import {accessCode} from './accessCode';
+import getAccessCode from './accessCode';
 
 export {
     cityMap,
@@ -16,7 +16,7 @@ export {
     regular,
     money,
     ID_NumUtils,
-    accessCode,
+    getAccessCode,
 };
 
 /**

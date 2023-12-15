@@ -38,7 +38,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "cross-env": "^7.0.2",
-    "lodash": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "moment": "^2.24.0",
     "webpack": "^4.42.0",
     "webpack-bundle-analyzer": "^3.6.1",
