@@ -6,6 +6,7 @@ import File from './file';
 import regular from './regular';
 import ID_NumUtils from './idNum';
 import getAccessCode from './accessCode';
+import TableUtils from './tableUtils';
 
 export {
     cityMap,
@@ -17,6 +18,7 @@ export {
     money,
     ID_NumUtils,
     getAccessCode,
+    TableUtils
 };
 
 /**
